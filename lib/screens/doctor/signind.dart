@@ -3,14 +3,13 @@ import 'package:homedix/screens/doctor/doctorscreen.dart';
 
 class SigninFormD extends StatelessWidget {
   const SigninFormD({
-    Key? key,
+    super.key,
     required GlobalKey<FormState> signInFormKey,
     required TextEditingController emailController,
     required TextEditingController passwordController,
   })  : _signInFormKey = signInFormKey,
         _emailController = emailController,
-        _passwordController = passwordController,
-        super(key: key);
+        _passwordController = passwordController;
 
   final GlobalKey<FormState> _signInFormKey;
   final TextEditingController _emailController;

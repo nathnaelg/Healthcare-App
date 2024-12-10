@@ -27,9 +27,9 @@ class MedicalReport extends StatelessWidget {
                 border: Border.all(color: const Color(0xFF018C97), width: 2),
                 borderRadius: BorderRadius.circular(8),
               ),
-              child: Column(
+              child: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [
+                children: [
                   Text(
                     'Illness:',
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),

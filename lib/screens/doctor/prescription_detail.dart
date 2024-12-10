@@ -9,10 +9,10 @@ class PrescriptionDetailsScreen extends StatelessWidget {
   final String diagnosis;
 
   const PrescriptionDetailsScreen({
-    Key? key,
+    super.key,
     required this.illness,
     required this.diagnosis,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

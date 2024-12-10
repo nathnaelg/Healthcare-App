@@ -28,19 +28,19 @@ class Profile extends StatelessWidget {
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(25),
               ),
-              child: Center(
+              child: const Center(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    const CircleAvatar(
+                    CircleAvatar(
                       backgroundImage: AssetImage('assets/images/myicon.png'),
                       radius: 70,
                     ),
-                    const SizedBox(width: 10),
+                    SizedBox(width: 10),
                     Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
+                      children: [
                         Text(
                           'Name',
                           style: TextStyle(

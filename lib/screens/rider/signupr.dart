@@ -3,7 +3,7 @@ import 'package:homedix/screens/rider/riderscreen.dart';
 
 class SignupFormR extends StatelessWidget {
   const SignupFormR({
-    Key? key,
+    super.key,
     required GlobalKey<FormState> signUpFormKey,
     required TextEditingController nameController,
     required TextEditingController phoneNumberController,
@@ -17,8 +17,7 @@ class SignupFormR extends StatelessWidget {
         _emailController = emailController,
         _passwordController = passwordController,
         _ageController = ageController,
-        _addressController = addressController,
-        super(key: key);
+        _addressController = addressController;
 
   final GlobalKey<FormState> _signUpFormKey;
   final TextEditingController _nameController;

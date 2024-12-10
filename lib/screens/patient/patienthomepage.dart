@@ -67,12 +67,12 @@ class PatientHomePage extends StatelessWidget {
                     width: 2,
                   ),
                 ),
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                child: const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 20.0),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      const Text(
+                      Text(
                         'Patient ID: 123523 1432653467',
                         style: TextStyle(
                           fontWeight: FontWeight.w300,
@@ -81,7 +81,7 @@ class PatientHomePage extends StatelessWidget {
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: const [
+                        children: [
                           Padding(
                             padding: EdgeInsets.all(8.0),
                             child: Text(
@@ -105,7 +105,7 @@ class PatientHomePage extends StatelessWidget {
                           ),
                         ],
                       ),
-                      const Text(
+                      Text(
                         'Address: XYZ Street XYZ',
                         style: TextStyle(
                           fontWeight: FontWeight.w500,

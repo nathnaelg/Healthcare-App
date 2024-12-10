@@ -313,10 +313,10 @@ class _CareNeededState extends State<CareNeeded> {
 
 class TextContainer extends StatelessWidget {
   const TextContainer({
-    Key? key,
+    super.key,
     required this.size,
     required this.text,
-  }) : super(key: key);
+  });
 
   final Size size;
   final String text;

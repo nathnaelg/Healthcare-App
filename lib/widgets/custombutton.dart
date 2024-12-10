@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 class CustomButton extends StatelessWidget {
   const CustomButton({
-    Key? key,
+    super.key,
     required this.size,
     required this.screen,
     required this.text,
-  }) : super(key: key);
+  });
 
   final Size size;
   final String text;

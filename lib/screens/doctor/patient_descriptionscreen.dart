@@ -171,12 +171,12 @@ class PatientDescScreen extends StatelessWidget {
                   width: 3.0,
                 ),
               ),
-              child: SingleChildScrollView(
+              child: const SingleChildScrollView(
                 child: Padding(
-                  padding: const EdgeInsets.all(10.0),
+                  padding: EdgeInsets.all(10.0),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: const [
+                    children: [
                       SizedBox(height: 10),
                       Text(
                         'Patient Illness:',

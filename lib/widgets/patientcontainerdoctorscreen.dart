@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 class PatientContainerWithName extends StatelessWidget {
   const PatientContainerWithName({
-    Key? key,
+    super.key,
     required this.size,
     required this.text,
     required this.name,
     required this.screen,
-  }) : super(key: key);
+  });
 
   final Size size;
   final String text;

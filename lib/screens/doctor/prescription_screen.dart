@@ -4,7 +4,7 @@ import 'package:homedix/screens/doctor/prescription_detail.dart';
 
 
 class PrescriptionScreen extends StatefulWidget {
-  const PrescriptionScreen({Key? key}) : super(key: key);
+  const PrescriptionScreen({super.key});
 
   @override
   State<PrescriptionScreen> createState() => _PrescriptionScreenState();

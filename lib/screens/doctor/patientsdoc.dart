@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:homedix/screens/doctor/authscreenP.dart';
 import 'package:homedix/screens/doctor/patient_descriptionscreen.dart';
 
-import '../../widgets/Patientcontainerdoctorscreen.dart';
+import '../../widgets/patientcontainerdoctorscreen.dart';
 
 class PatientsFTDOC extends StatelessWidget {
   const PatientsFTDOC({super.key});

@@ -3,7 +3,7 @@ import 'package:homedix/screens/nurse/nursescreen.dart';
 
 class SignupFormN extends StatelessWidget {
   const SignupFormN({
-    Key? key,
+    super.key,
     required GlobalKey<FormState> signUpFormKey,
     required TextEditingController nameController,
     required TextEditingController phoneNumberController,
@@ -17,8 +17,7 @@ class SignupFormN extends StatelessWidget {
         _emailController = emailController,
         _passwordController = passwordController,
         _ageController = ageController,
-        _addressController = addressController,
-        super(key: key);
+        _addressController = addressController;
 
   final GlobalKey<FormState> _signUpFormKey;
   final TextEditingController _nameController;

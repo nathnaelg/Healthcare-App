@@ -5,10 +5,9 @@ import 'package:homedix/screens/admin/emp_button.dart';
 import 'package:homedix/screens/admin/edit_doc.dart';
 import 'package:searchbar_animation/searchbar_animation.dart';
 
-import '../doctor/authscreenP.dart';
 
 class AdminHomePage extends StatelessWidget {
-  const AdminHomePage({Key? key}) : super(key: key);
+  const AdminHomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -64,7 +63,7 @@ class AdminHomePage extends StatelessWidget {
 }
 
 class DoctorWidget extends StatelessWidget {
-  const DoctorWidget({Key? key}) : super(key: key);
+  const DoctorWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -105,7 +104,7 @@ class DoctorWidget extends StatelessWidget {
 }
 
 class NurseWidget extends StatelessWidget {
-  const NurseWidget({Key? key}) : super(key: key);
+  const NurseWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -146,7 +145,7 @@ class NurseWidget extends StatelessWidget {
 }
 
 class RiderWidget extends StatelessWidget {
-  const RiderWidget({Key? key}) : super(key: key);
+  const RiderWidget({super.key});
 
   @override
   Widget build(BuildContext context) {

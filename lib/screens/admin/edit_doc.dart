@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class EditDoctorScreen extends StatefulWidget {
-  const EditDoctorScreen({Key? key}) : super(key: key);
+  const EditDoctorScreen({super.key});
 
   @override
   State<EditDoctorScreen> createState() => _EditDoctorScreenState();

@@ -3,7 +3,7 @@ import 'package:homedix/screens/doctor/patient_descriptionscreen.dart';
 import 'package:homedix/screens/nurse/authscreenN.dart';
 import 'package:homedix/screens/nurse/patient_desc_nurse.dart';
 
-import '../../widgets/Patientcontainerdoctorscreen.dart';
+import '../../widgets/patientcontainerdoctorscreen.dart';
 
 class PatientsFTNurse extends StatelessWidget {
   const PatientsFTNurse({super.key});

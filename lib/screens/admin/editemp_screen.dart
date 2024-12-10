@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class EditEmpScreen extends StatefulWidget {
-  const EditEmpScreen({Key? key}) : super(key: key);
+  const EditEmpScreen({super.key});
 
   @override
   State<EditEmpScreen> createState() => _EditEmpScreenState();

@@ -1,17 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:homedix/screens/admin/adminscreen.dart';
-import 'package:homedix/screens/doctor/doctorscreen.dart';
 
 class SigninFormA extends StatelessWidget {
   const SigninFormA({
-    Key? key,
+    super.key,
     required GlobalKey<FormState> signInFormKey,
     required TextEditingController idController,
     required TextEditingController passwordController,
   })  : _signInFormKey = signInFormKey,
         _emailController = idController,
-        _passwordController = passwordController,
-        super(key: key);
+        _passwordController = passwordController;
 
   final GlobalKey<FormState> _signInFormKey;
   final TextEditingController _emailController;
